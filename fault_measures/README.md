@@ -35,6 +35,10 @@ of the Measures, please check the documentation inside *measure.rb* and
 
 ### EnergyPlus Measures
 
+* **AteCheungChillerCondenserFouling**: Model condenser fouling in water-cooled chiller according to the paper Cheung and Braun (2016)
+* **AteCheungChillerExcessOil**: Model excessive oil impact to water-cooled chiller according to the paper Cheung and Braun (2016)
+* **AteCheungChillerNonCondensable**: Model the impact of non-condensable to water-cooled chiller according to the paper Cheung and Braun (2016)
+* **AteCheungChillerOvercharge**: Model the impact of too much refrigerant in a water-cooled chiller according to the paper Cheung and Braun (2016)
 * **AirLoopSupplyTempSensorBias**: Model supply air temperature sensor bias, if it exists.
 * **AirTerminalSupplyDownstreamLeakToReturn**: Add the EnergyPlus Duct Leakage model to the building model. Only applicable to models having a plenum model.
 * **ChillerCondenserFouling**: Model condenser fouling in water-cooled chiller
@@ -80,3 +84,4 @@ The following list files that document extra information about the measures.
 ## Reference
 
 Barsarkar et al. 2009: at [12th Conference of International Building Performance Simulation Association](http://www.ibpsa.org/proceedings/BS2011/P_1925.pdf "Modeling and Simulation og HVAC Faults in EnergyPlus")
+Cheung, Howard, and James E. Braun. "Empirical modeling of the impacts of faults on water-cooled chiller power consumption for use in building simulation programs." Applied Thermal Engineering 99 (2016): 756-764.
